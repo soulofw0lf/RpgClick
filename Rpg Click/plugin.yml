@@ -1,0 +1,8 @@
+name: RpgClick
+main: com.vartala.soulofw0lf.rpgclick.RpgClick
+version: 1.12
+author: soulofw0lf
+commands:
+  click:
+    description: Base click commands
+    usage: /<command> <create/ open {click name}>

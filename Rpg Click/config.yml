@@ -1,0 +1,93 @@
+Commands:
+  1:
+    Name: Party Invite
+    Command: party invite @t
+    Console: false
+  2:
+    Name: Trade
+    Command: trade invite @t
+    Console: false
+  3:
+    Name: Achievements
+    Command: titles list @t
+    Console: false
+  4:
+    Name: Guild Invite
+    Command: Guild Invite @t
+    Console: false
+  5:
+    Name: Ressurection
+    Command: res @t
+    Console: false
+  6:
+    Name: Party Kick
+    Command: party kick @t
+    Console: false
+  7:
+    Name: Guild Kick
+    Command: guild kick @t
+    Console: false
+  8:
+    Name: Broadcast
+    Command: broadcast @p really dilikes @t
+    Console: true
+  9:
+    Name: Open Click
+    Command: click open RandomlyNamedClick @t
+    Console: false
+  10:
+    Name: Multi-Command
+    Command: say this is command 1
+    Console: false
+  11:
+    Name: Multi-Command
+    Command: say this is command 2
+    Console: false
+   12:
+    Name: Multi-Command
+    Command: say this is command 3
+    Console: false
+PlayerClick:
+  Rows: 1
+  Permission: player
+  Items:
+    1:
+      Item Type: 288
+      Name: Party Invite
+      Description: Invite @t to your Party!
+      Durability: 1
+    2:
+      Item Type: 268
+      Name: Trade
+      Description: Open a trade with @p
+      Durability: 0
+    3:
+      Item Type: 292
+      Name: Open Click
+      Description: Open the sub menu RandomlyNamedClick
+      Durability: 0
+    4:
+      Item Type: 298
+      Name: Broadcast
+      Description: Broadcast a message
+      Durability: 0
+    5:
+      Item Type: 295
+      Name: Multi-Command
+      Description: Multiple commands at once
+      Durability: 0
+RandomlyNamedClick:
+  Rows: 2
+  Permission: admin
+  Items:
+    1:
+      Item Type: 288
+      Name: Guild Invite
+      Description: Invite @t to your guild.
+      Durability: 0
+    2:
+      Item Type: 278
+      Name: Guild Kick
+      Description: kick @t from your guild
+      Durability: 0
+  
